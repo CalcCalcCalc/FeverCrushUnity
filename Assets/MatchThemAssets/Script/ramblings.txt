@@ -1,0 +1,12 @@
+Could use recursion to find all matches...
+this for example
+
+When a match is found currently, it doesn't break, it carries on and batches this match with the others, preventing me from assigning special properties to matches of certain lengths
+
+What I need to do is put the match function in a while loop, then every time a match is found the function returns the match to be inserted into the match queue. The function will compare the matches it finds to the ones in the queue so it doesn't just get stuck on the first match. Then when the function finds no matches we execute the queue.
+
+Done!
+
+Okay so now I have an issue where if a bomb is the first object in a group of matches, it doesn't destroy itself
+
+

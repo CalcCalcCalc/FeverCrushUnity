@@ -1,0 +1,20 @@
+on horizontal and vertical stack check [*]
+make true the bomb or pill property of "thiscell" and protect [*]
+check if "thiscell" has a true bomb or pill property and execute according script instead of matching[*]
+
+dont make pill if bomb is made
+
+Clear horizontal and vertical matches seperately []
+
+Sometimes, bombs are not being deleted []
+
+Explode the bomb!! []
+
+Explode the pill!! []
+
+convert to bomb or pill only if virus was animating in previous frame
+This will be done by observing the previous frame's animation data, locating the relevant virus by rounding it's coordinates and assigning this virus with the special property
+also if horizontal pill or bomb creation, if there are any matches to the right that weren't animating, the rightmost virus is converted
+
+There are empty objects that are left over...seems like a bug.
+We need to modify doemptydown to only animate the tiles that need to be animated
